@@ -1,0 +1,328 @@
+header #right{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#right img {
+    width: 150px;
+    padding-left: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 1px solid #f2f2f2 ;}
+
+    
+#left {
+padding-right: 20px;
+
+    }
+#left #icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+#left .buttons{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.buttons ion-icon{
+    width: 40px;
+    cursor: pointer;
+}
+
+#resume{
+    border: solid 0.5px black;
+    border-radius: 30px;   
+    cursor: pointer;
+}
+#resume p{
+padding-right: 20px;
+padding-left: 20px;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 14px;
+
+}
+
+#account {
+   margin-left:20px; 
+}
+#account button{
+    background-color: orangered;
+    border-radius:50%;
+    border: none;
+    color:white;
+    width: 30px;
+    height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;   
+cursor: pointer;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+#mainContent{
+    width: 60%;
+    border-right: solid 1px gray;
+
+    flex: 2;
+}
+aside{
+    width: 30%;
+    flex: 1;
+    margin-left:50px ;
+
+}
+
+.topAside{
+    border-bottom:solid 1px gray;
+}
+
+
+.topAside .immagini{
+    display: flex;
+justify-content: center;
+}
+
+#mediumLogo img ,#twitterLogo img {
+    width: 50px;
+}
+
+.paragrafo {
+    display: flex;
+    text-align:center;
+    padding: 0 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#twitterButton{
+display: flex;
+justify-content: center;
+}
+
+
+#twitterButton a{
+text-decoration: none;
+color: rgb(9, 9, 9);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#twitterButton button{
+    display: flex;
+    background-color:white;
+    padding-top:10px;
+    
+    border-radius: 20px;
+    border:solid 1px gray ;
+    padding-right: 30px;
+}
+
+#twitterButton img{
+    width: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#maybe p {
+    color: black;
+text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#centerAside h2 {
+    text-align: left;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+#centerAside #topics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#topics div {
+    flex: 0 1 calc(50% 5px);
+    background-color: gainsboro;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    
+}
+
+.profileImg img {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+display: flex;
+align-items: center;
+margin-top: 20px;
+
+}
+
+#follow div {
+    display: flex;
+}
+#follow .descrizione {
+    flex-direction: column;
+    flex-grow: 1; 
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+#follow h3{
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+#follow p {
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: gray;
+}
+.buttonFollow{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    
+    
+}
+.buttonFollow p{
+    border: solid 1px gray;
+    border-radius: 20px;
+    padding-left:20px ;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+
+}
+
+#asideBottom {
+    font-family: sans-serif;
+}
+
+
+#asideBottom h3{
+font-size: 20px;
+margin-bottom: 0px;
+}
+
+#asideBottom h4{
+    font-size: 15px;
+    
+}
+#asideBottom h3{
+    font-size: 18px;
+       
+}
+
+#asideBottom span{
+    color: gray;
+    padding-right: 2px;
+}
+#asideBottom .parAsideBottom{
+    display: flex;
+    align-items: center;
+}
+.parAsideBottom p {
+    color: gray;  
+}
+.parAsideBottom ion-icon{
+    margin-left: 5px;
+    color: gray;
+}
+#asideBottom #final{
+    color: rgb(33, 134, 33);
+    text-decoration: none;
+}
+
+
+#mainContent .title{
+color: gray;
+padding-right: 20px;
+
+}
+
+#span {
+    border-bottom: solid 1px gray;
+    margin-right: 20px;
+}
+
+.card {
+    display:flex;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-bottom: solid 1px gray;
+    align-items: flex-start;
+    
+    
+}
+
+
+.card .contenuto {
+padding-right: 60px;
+font-family: sans-serif;
+margin-bottom: 1px;
+flex: 1;
+
+}
+
+.contenuto h3{
+font-size: 10px;
+margin-top: 0px;
+color: black;
+}
+
+.contenuto h2 {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.card img{
+    width: 100px;
+    margin-right:40px;
+    display: block;
+
+    }
+
+
+
+    .iconcine {
+        justify-content: flex-end;
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+
+    .contenuto p{
+        color: gray;
+        margin-bottom: 10px;
+        
+    }
+
+    .secondario {
+        margin: 8px; }
